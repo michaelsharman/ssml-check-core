@@ -3,7 +3,7 @@
 //
 
 const Buffer = require('buffer/').Buffer;
-const convert = require('xml-js');
+const convert = require('@caspingus/xml-js');
 const checktag = require('./checktag');
 
 // The return value from this function is the position of the next character to check
